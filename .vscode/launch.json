@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TicketmasterApplication<ticketmaster>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sujal.ticketmaster.TicketmasterApplication",
+            "projectName": "ticketmaster",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
