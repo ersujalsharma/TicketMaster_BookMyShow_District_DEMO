@@ -1,14 +1,126 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="vFogzyQFlmPAQcVP5cQd">
-    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="637" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gr6lxdu419EEu6GYxgvT-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="480" width="650" x="170" y="320" as="geometry" />
+        </mxCell>
         <mxCell id="MZ4_vvoWyCXZ5H0S6zgz-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="240" width="320" x="40" y="40" as="geometry" />
         </mxCell>
         <mxCell id="MZ4_vvoWyCXZ5H0S6zgz-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Functional Requirement&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;User Can Enter Location where he need to book a show.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;User can see All the shows and event.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;User can search for venues/events/shows&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;User can explore the shows of particular venue.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;User can see available seats, and book seat.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Booking Seat should be concurrent, so one user can claim a seat only,&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;After getting confirmation of the payment, generate the reciept and ticket&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="220" width="306" x="47" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="200" width="100" x="40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 204, 102));&quot;&gt;Core Entities&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="41" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-4" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="20" width="80" x="47" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-18" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Location" vertex="1">
+          <mxGeometry height="20" width="80" x="47" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-19" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Events" vertex="1">
+          <mxGeometry height="20" width="80" x="47" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-20" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Venues" vertex="1">
+          <mxGeometry height="20" width="80" x="47" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-21" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Seat" vertex="1">
+          <mxGeometry height="20" width="80" x="47" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-22" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Payment" vertex="1">
+          <mxGeometry height="20" width="80" x="47" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-23" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Ticket" vertex="1">
+          <mxGeometry height="20" width="80" x="47" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-34" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="240" width="200" x="380" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-33" parent="gr6lxdu419EEu6GYxgvT-34" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="240" width="200" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-28" parent="gr6lxdu419EEu6GYxgvT-34" style="rounded=1;whiteSpace=wrap;html=1;arcSize=17;" value="Location Service" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-30" parent="gr6lxdu419EEu6GYxgvT-34" style="rounded=1;whiteSpace=wrap;html=1;arcSize=17;" value="Event &amp;amp; Venue&lt;div&gt;Service&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-31" parent="gr6lxdu419EEu6GYxgvT-34" style="rounded=1;whiteSpace=wrap;html=1;arcSize=17;" value="Booking Service" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-32" parent="gr6lxdu419EEu6GYxgvT-34" style="rounded=1;whiteSpace=wrap;html=1;arcSize=17;" value="Payment Service" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-36" edge="1" parent="1" source="gr6lxdu419EEu6GYxgvT-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gr6lxdu419EEu6GYxgvT-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-55" edge="1" parent="1" source="gr6lxdu419EEu6GYxgvT-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gr6lxdu419EEu6GYxgvT-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Client" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-37" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div&gt;SQL&lt;/div&gt;Database" vertex="1">
+          <mxGeometry height="100" width="80" x="640" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-38" edge="1" parent="1" source="gr6lxdu419EEu6GYxgvT-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="gr6lxdu419EEu6GYxgvT-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-49" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="160" width="190" x="600" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-48" parent="gr6lxdu419EEu6GYxgvT-49" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="160" width="190" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-44" edge="1" parent="gr6lxdu419EEu6GYxgvT-49" source="gr6lxdu419EEu6GYxgvT-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gr6lxdu419EEu6GYxgvT-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="14.670000000000073" />
+              <mxPoint x="10" y="44.66999999999996" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-40" parent="gr6lxdu419EEu6GYxgvT-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Shows Table" vertex="1">
+          <mxGeometry height="30" width="80" x="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-43" edge="1" parent="gr6lxdu419EEu6GYxgvT-49" source="gr6lxdu419EEu6GYxgvT-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="gr6lxdu419EEu6GYxgvT-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="44.66999999999996" />
+              <mxPoint x="170" y="14.670000000000073" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-41" parent="gr6lxdu419EEu6GYxgvT-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Venue Table" vertex="1">
+          <mxGeometry height="30" width="80" x="50" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-45" parent="gr6lxdu419EEu6GYxgvT-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Booking Details Table" vertex="1">
+          <mxGeometry height="30" width="130" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-46" parent="gr6lxdu419EEu6GYxgvT-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Payment Record" vertex="1">
+          <mxGeometry height="30" width="100" x="45" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-47" parent="gr6lxdu419EEu6GYxgvT-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="User Table" vertex="1">
+          <mxGeometry height="30" width="80" x="50" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;High Consistency in Booking&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="560" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="REDIS" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-53" edge="1" parent="1" source="gr6lxdu419EEu6GYxgvT-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gr6lxdu419EEu6GYxgvT-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6lxdu419EEu6GYxgvT-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CDN" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
